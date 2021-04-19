@@ -1,0 +1,124 @@
+@media screen and (max-width : 768px){
+    nav ul{
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        height: 50vh;
+background: #ffffff;
+box-shadow:  0px 80px 60px #bebebe5b;
+        margin-top: 60px;
+        justify-content: space-evenly;
+        transform: translateX(100%);
+        transition: all 0.5s;
+    }
+    nav ul li a{
+        font-size: 30px;
+        color: rgb(87, 87, 87);
+    }
+    nav ul li a:hover{
+        color: #bebebe;
+    }
+    .menu-toggle{
+        display: flex;
+    }
+    nav ul{
+        display: none;
+    }
+    nav ul.slide{
+        transform: translateX(0);
+        display: flex;
+    }
+    .header-content{
+        margin: 20px;
+        margin-bottom: 120px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .header-img{
+        text-align: center;
+    }
+    .header-img img{
+        width: 300px;
+        
+    }
+    .header-text{
+        width: 100%;
+    }
+    .header-text a{
+        margin: 5%;
+    }
+    .description{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .card{
+        margin: 20px;
+        width: 90%;
+        font-size: 90%;
+    }
+
+    .data{
+        display: block;
+    }
+    .data-text{
+        padding: unset;
+        border-radius: unset;
+        padding-top:30px;
+        padding-bottom: 30px;
+        text-align: center;
+
+    }
+    .data-text p {
+        margin: 20px;
+    }
+    .data-img{
+        text-align: center;
+    }
+}
+@media screen and (max-width : 1150px){
+    .description{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .card{
+        margin: 20px;
+    }
+    .header-text{
+        font-size: 80%;
+    }
+    .header-img img{
+        width: 300px;
+    }
+    .hipotesis{
+        padding: 40px;
+    }
+    .data-text{
+        font-size: 70%;
+        width: 100%;
+
+    
+    }
+    .data-img img{
+        width: 80%;
+        margin:40px;
+        
+    }
+    .statistic{
+        flex-direction: column;
+    }
+    .card-statis{
+        margin-bottom: 40px;
+    }
+    .tim{
+        flex-direction: column;
+    }
+    .profile{
+        margin-bottom: 40px;
+    }
+    .foot {
+        flex-direction: column;
+        padding: 100px;
+    }
+}
