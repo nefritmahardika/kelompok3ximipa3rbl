@@ -30,7 +30,7 @@ box-shadow:  0px 80px 60px #bebebe5b;
     }
     .header-content{
         margin: 20px;
-        margin-bottom: 120px;
+        margin-bottom: 90px;
         flex-direction: column-reverse;
         text-align: center;
     }
@@ -57,7 +57,10 @@ box-shadow:  0px 80px 60px #bebebe5b;
         width: 90%;
         font-size: 90%;
     }
-
+    .titlethank h2{
+        margin-bottom: 0px;
+    }
+    
     .data{
         display: block;
     }
@@ -75,8 +78,21 @@ box-shadow:  0px 80px 60px #bebebe5b;
     .data-img{
         text-align: center;
     }
+    .parathank p{
+        font-size: 15px;
+    }
+    #tim{
+        flex-direction: column;
+     }
+     #tim h1{
+        font-size: 20px;
+    }
+    #tim img{
+        width: 200px;
+        padding: 30px;
+    }
 }
-@media screen and (max-width : 1150px){
+@media screen and (max-width : 1024px){
     .description{
         flex-direction: column;
         text-align: center;
@@ -103,6 +119,7 @@ box-shadow:  0px 80px 60px #bebebe5b;
     .data-img img{
         width: 80%;
         margin:40px;
+        margin-bottom: 60px;
         
     }
     .statistic{
@@ -111,14 +128,36 @@ box-shadow:  0px 80px 60px #bebebe5b;
     .card-statis{
         margin-bottom: 40px;
     }
+    .card-statis h1{
+        font-size: 30px;
+    }
+    .profile h1{
+        font-size: 12px;
+    }
+    .card-statis img{
+        margin-bottom: 20px;
+        width: 300px;
+    }
     .tim{
-        flex-direction: column;
+        flex-direction: row;
     }
     .profile{
         margin-bottom: 40px;
+        padding: 0;
+        padding-bottom: 40px;
     }
     .foot {
         flex-direction: column;
         padding: 100px;
+    }
+    .parathank{
+        margin: 0px 10px;
+        font-size: 17px;
+    }
+    .titlethank {
+     margin-bottom: 0;
+    }
+    .titlethank h2{
+        margin-bottom: 30px;
     }
 }
