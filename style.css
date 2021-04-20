@@ -18,10 +18,14 @@ nav{
     padding: 20px;
     justify-content: space-around;
 }
+
 .logo img{
     width: 40px;
 }
-
+.logo a:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
 nav ul{
     margin: 0;
     display: flex;
@@ -125,6 +129,7 @@ nav ul li a:hover{
     padding: 10px 40px;
     margin-right: 40px;
     border-radius: 50px;
+    border: 1px solid #8b5bd8 ;
     text-decoration: none;
     font-weight: 600;
     color: rgb(255, 255, 255);
@@ -181,9 +186,10 @@ nav ul li a:hover{
 .icon-link i{
     padding: 10px;
     border-radius: 50%;
-    background-color: #a866ff;
+    background-color: #8b5bd8;
     color: #fff;  
     margin: 28px;
+    border: 1px solid #8b5bd8 ;
     transition: all 0.5s;
 }
 .icon-link i:hover{
@@ -250,11 +256,15 @@ nav ul li a:hover{
     box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 0px 40px rgba(166, 173, 201, 0.493);
 
 }
+.card-statis h1{
+    font-size: 20px;
+}
 .card-statis img{
     margin-bottom: 20px;
-    width: 300px;
+    width: 200px;
 }
 .map{
+    height: 300px;
     box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 0px 40px rgba(166, 173, 201, 0.493);
 
 }
@@ -275,7 +285,7 @@ nav ul li a:hover{
 
 }
 .profile img{
-    width: 200px;
+    width: 100px;
     border-radius: 50%;
     margin: 20px;
 
@@ -283,6 +293,7 @@ nav ul li a:hover{
 
 .profile h1{
     margin-bottom: 20px;
+    font-size: 15px;
 }
 .titletim{
     margin-bottom: 40px;
@@ -323,10 +334,14 @@ nav ul li a:hover{
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 600px;
-    background-color: #FAFAFA;
+    background-color: #272727;
+}
+.foot h1{
+    color: rgb(197, 197, 197);
 }
 .bottom p{
     width: 80%;
+    color: rgb(119, 119, 119);
 }
 .bottom h1{
     margin-bottom: 20px;
@@ -338,5 +353,57 @@ nav ul li a:hover{
     padding: 20px;
     text-align: center;
     color: #fff;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(24, 24, 24);
 }
+.kontak h1{
+    margin-bottom: 20px;
+}
+
+.kontak p{
+   padding-bottom:20px; 
+   align-items: center;
+   display: flex;
+   color: rgb(119, 119, 119);
+}
+.kontak i{
+    margin-right:20px;
+     
+}
+ .bot a{
+     color: #fff;
+     text-decoration: underline;
+ }
+ .bot a:hover{
+    color: #ddd;
+ }
+ .thanks {
+     text-align: center;
+     margin-bottom: 40px;
+     padding: 20px;
+     height: 400px;
+     background-color: #272727;
+     box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 0px 40px rgba(166, 173, 201, 0.493);
+ }
+ .thanks i{
+     padding: 20px;
+    color: #fff;
+     border-radius: 50%;
+    background-color: #272727; 
+    background: #9D50BB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ }
+ .titlethank{
+     margin: 30px;
+ }
+ .titlethank h2{
+     margin: 30px;
+     color: rgb(255, 255, 255);
+ }
+ .parathank{
+     margin: 5px 200px;
+     font-size: 17px;
+     color: rgba(219, 219, 219, 0.89);
+     font-weight: 500;
+ }
