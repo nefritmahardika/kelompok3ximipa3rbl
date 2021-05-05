@@ -246,6 +246,7 @@ nav ul li a:hover{
     justify-content: space-around;
     text-align: center;
     align-items: center;
+    margin-top: 60px;
     
 }
 .card-statis{
@@ -301,7 +302,7 @@ nav ul li a:hover{
     font-size: 20px;
 }
 .profile i{
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
     border-radius: 50%;
     background-color: #8b5bd8;
@@ -329,18 +330,19 @@ nav ul li a:hover{
 .foot{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-left: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 600px;
+    justify-content: space-around;
+    padding-top: 40px;
     background-color: #272727;
 }
 .foot h1{
     color: rgb(197, 197, 197);
 }
+.bottom{
+    margin-right: 60px;
+}
 .bottom p{
-    width: 80%;
+    width: 200px;
+    font-size: 15px;
     color: rgb(119, 119, 119);
 }
 .bottom h1{
@@ -379,8 +381,9 @@ nav ul li a:hover{
  .thanks {
      text-align: center;
      margin-bottom: 40px;
-     padding: 20px;
-     height: 400px;
+     padding: 60px;
+     align-items: center;
+     
      background-color: #272727;
      box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 0px 40px rgba(166, 173, 201, 0.493);
  }
@@ -407,3 +410,166 @@ nav ul li a:hover{
      color: rgba(219, 219, 219, 0.89);
      font-weight: 500;
  }
+
+.react{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    height: 500px;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 0px 40px rgba(166, 173, 201, 0.493);
+    background-color: #fff;
+}
+.react p{
+    margin: 20px;
+    font-size: 20px;
+}
+#reactbtn p{
+    background-color: #272727;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 50px;
+}
+.reactext a{
+    text-decoration: underline;
+    color: #272727;
+}
+ #box {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 0px 40px rgba(166, 173, 201, 0.493);
+
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+.reactext{
+    margin-top: 30px;
+}
+.reactext p{
+    width: 80%;
+    margin: auto;
+}
+
+#testbox {
+    width: 200px;
+    height: 200px;
+    background-color: #3bb78f;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+    display: none;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 0px 40px rgba(166, 173, 201, 0.493);
+
+    margin: auto;
+    position: relative; 
+}
+
+#startbox {
+width: 200px;
+height: 200px;
+background: #9D50BB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 0.5s;
+display: none;
+border-radius: 50%;
+margin: auto;
+position: relative; 
+}
+#startbox:hover{
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 0px 40px rgba(166, 173, 201, 0.493);
+    transition: 0.5s;
+}
+#waitbox {
+width: 200px;
+height: 200px;
+margin: auto;
+background-color: #c62128;
+background-image: linear-gradient(147deg, #c62128 0%, #a00000 74%);
+border-radius: 50%;
+box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 0px 40px rgba(166, 173, 201, 0.493);
+
+display: none;
+position: relative; 
+}
+#startbox p{
+    padding-top: 85px;
+    color: #FAFAFA;
+    font-weight: 600;
+}
+#waitbox p{
+    padding-top: 85px;
+    color: #FAFAFA;
+    font-weight: 600;
+}
+#testbox p{
+    padding-top: 85px;
+    color: #FAFAFA;
+    font-weight: 600;
+}
+.profilpembimbing{
+    width: 40%;
+    height: 430px;
+    margin: auto;
+    margin-bottom: 60px;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 0px 40px rgba(166, 173, 201, 0.493);
+    padding: 40px;
+    border-radius: 20px;
+}
+.profilpembimbing p{
+    font-size: 85%;
+    margin-bottom: 20px;
+}
+.profilpembimbing img{
+    width: 40%;
+    padding: 30px;
+    border-radius: 50%;
+}
+.profilpembimbing a{
+    padding: 5px 20px;
+    color: #fff;
+    background-color: #452c6d;
+    border-radius: 50px;
+}
+.profilpembimbing a:hover{
+    padding: 5px 25px;
+    transition: 0.5s;
+}
+.guru{
+    display: flex;
+}
+.pembimbing{
+    text-align: center;
+    margin: 30px;
+}
+.pembimbing h1{
+    font-size: 35px;
+}
+.form{
+    width: 180px;
+}
+.form-group{
+    width: 100%;
+    font-size: 20px;
+}
+.form-group input{
+    width: 200px;
+    margin-bottom: 20px;
+    background-color: #585858;
+    border: none;
+}
+.form h1{
+    font-size: 26px;
+}
+.form-group p{
+    color: rgb(119, 119, 119);
+}
+button[type="submit"]{
+    width: 112%;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
