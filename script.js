@@ -4,7 +4,7 @@ const nav = document.querySelector('nav ul');
 menuToggle.addEventListener('click', function(){
     nav.classList.toggle('slide');
 });
-}
+
 
 var clickedTime; var createdTime; var reactionTime; 
 var counter = 0;
@@ -26,6 +26,7 @@ function makeBox() {
     }, time); 
 
 }
+
 
 function makeStartBox() {
     document.getElementById("startbox").style.borderRadius="50%";
@@ -84,4 +85,3 @@ async function handleSubmit(event) {
   });
 }
 form.addEventListener("submit", handleSubmit)
-}
